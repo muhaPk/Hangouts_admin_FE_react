@@ -34,6 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:4.0.3"],\
             ["apexcharts", "npm:3.41.0"],\
             ["autoprefixer", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:10.4.14"],\
+            ["date-fns", "npm:4.1.0"],\
             ["file-loader", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:6.2.0"],\
             ["flatpickr", "npm:4.6.13"],\
             ["graphql", "npm:16.10.0"],\
@@ -46,6 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-apexcharts", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:1.4.1"],\
             ["react-dom", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:18.2.0"],\
+            ["react-hook-form", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:7.54.2"],\
             ["react-hot-toast", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:2.4.1"],\
             ["react-icons", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:4.10.1"],\
             ["react-router-dom", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:6.14.2"],\
@@ -1695,6 +1697,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/csstype-npm-3.1.2-cead7d99b2-e1a52e6c25.zip/node_modules/csstype/",\
           "packageDependencies": [\
             ["csstype", "npm:3.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["date-fns", [\
+        ["npm:4.1.0", {\
+          "packageLocation": "./.yarn/cache/date-fns-npm-4.1.0-764604ee0f-fb681b242c.zip/node_modules/date-fns/",\
+          "packageDependencies": [\
+            ["date-fns", "npm:4.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3369,6 +3380,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-hook-form", [\
+        ["npm:7.54.2", {\
+          "packageLocation": "./.yarn/cache/react-hook-form-npm-7.54.2-9e7394f4c4-49a867ece9.zip/node_modules/react-hook-form/",\
+          "packageDependencies": [\
+            ["react-hook-form", "npm:7.54.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:7.54.2", {\
+          "packageLocation": "./.yarn/__virtual__/react-hook-form-virtual-a70150529d/0/cache/react-hook-form-npm-7.54.2-9e7394f4c4-49a867ece9.zip/node_modules/react-hook-form/",\
+          "packageDependencies": [\
+            ["react-hook-form", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:7.54.2"],\
+            ["@types/react", "npm:18.2.17"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-hot-toast", [\
         ["npm:2.4.1", {\
           "packageLocation": "./.yarn/cache/react-hot-toast-npm-2.4.1-923d48e94b-3e337816db.zip/node_modules/react-hot-toast/",\
@@ -3998,6 +4031,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:4.0.3"],\
             ["apexcharts", "npm:3.41.0"],\
             ["autoprefixer", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:10.4.14"],\
+            ["date-fns", "npm:4.1.0"],\
             ["file-loader", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:6.2.0"],\
             ["flatpickr", "npm:4.6.13"],\
             ["graphql", "npm:16.10.0"],\
@@ -4010,6 +4044,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-apexcharts", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:1.4.1"],\
             ["react-dom", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:18.2.0"],\
+            ["react-hook-form", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:7.54.2"],\
             ["react-hot-toast", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:2.4.1"],\
             ["react-icons", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:4.10.1"],\
             ["react-router-dom", "virtual:4037d1afd9f451ebe0243f73705a997511858ba9367853b56bdd1fe4978890c98b8c91dc4744311ac2e2f20ddefcad7bd65689e6ef561a93880a90d0c75330b7#npm:6.14.2"],\

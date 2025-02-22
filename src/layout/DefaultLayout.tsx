@@ -1,9 +1,13 @@
-import React, { useState, ReactNode } from 'react';
+import React, { useState, ReactNode, useEffect } from 'react';
 import Header from '../components/Header/index';
 import Sidebar from '../components/Sidebar/index';
+import { useAuth } from '../hooks/useAuth';
 
 const DefaultLayout: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  useAuth();
+  
 
   return (
     <div className="dark:bg-boxdark-2 dark:text-bodydark">
